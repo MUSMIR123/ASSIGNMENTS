@@ -1,0 +1,92 @@
+.dice1,.dice2,.dice3,.dice4,.dice5,.dice6{
+    height: 60px;
+    width:60px;
+    border: 5px solid rgb(224, 222, 222);
+    border-radius: 8px;
+    box-shadow: 3px 3px 2px rgb(206, 203, 203);
+    background-color: rgb(224, 222, 222);
+
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100vh;
+    margin-top: 250px;
+    margin-left:400px;
+    margin-right:400px;
+}
+.one,.two,.three,.four,.five,.six{
+    width: 12px;
+    background-color: black;
+    height: 12px;
+    border-radius: 100px;
+    
+}
+
+#dice1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#dice2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#dice2 .two:nth-of-type(2){
+    align-self: flex-end;
+}
+
+#dice3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#dice3 .three:nth-of-type(2){
+    align-self: center;
+}
+#dice3 .three:nth-of-type(3){
+    align-self: flex-end;
+}
+
+#dice4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.d1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#dice5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.d2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.d3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#dice6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.d4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+

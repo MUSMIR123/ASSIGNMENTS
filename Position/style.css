@@ -1,0 +1,90 @@
+.container{
+    position: relative;
+    top: 30px;
+    left: 235px;
+    
+}
+.d1,.d3,.d5,.d7{
+    position: absolute;
+    
+}
+.d2{
+    width: 195px;
+    height: 225px;
+    position: absolute;
+    z-index: -1;
+    background-color: rgb(255, 43, 43);
+    color: white;
+    margin-top: 18px;
+    margin-left: 10px;
+    
+    
+}
+.h22{
+    margin-top: 110px;
+    margin-left: 43px;
+}
+.h2{
+    margin-top: 110px;
+    margin-left: 50px;
+
+}
+.d4{
+    width: 195px;
+    height: 225px;
+    position: absolute;
+    z-index: -1;
+    background-color:rgb(112, 14, 71);
+    color: white;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.d6{
+    width: 195px;
+    height: 225px;
+    position: absolute;
+    z-index: -1;
+    background-color:rgb(87, 148, 87);
+    color: white;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.d8{
+    width: 190px;
+    height: 225px;
+    position: absolute;
+    z-index: -1;
+    background-color: rgba(99, 89, 89, 0.829);
+    color: white;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.div1{
+    position: absolute;
+    left: 200px;
+}
+.div2{
+    position: absolute;
+    left: 445px;
+    top: 50px;
+}
+.div3{
+    position: absolute;
+    top: 260px;
+    left: 200px;
+}
+.div4{
+    position: absolute;
+    top: 310px;
+    left: 450px;
+}
+
+
+
+
+
+
+
+
+    
+    

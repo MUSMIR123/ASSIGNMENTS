@@ -1,0 +1,47 @@
+body,p,h4{
+    margin: 0;
+}
+.div{
+    display: flex;
+    flex-direction: row;
+}
+.d1{
+    height: 650px;
+    width: 650px;
+    background-color: #2980c7;
+    color:white;
+}
+.d2{
+    height: 650px;
+    width: 650px;
+    background-color: white;
+    color:#2980c7;
+    
+}
+    
+#hr1{
+    width: 100px;
+    text-align: center;
+    border: 1px solid white;
+}
+#hr2{
+    width: 100px;
+    text-align: center;
+    border: 1px solid #2980c7;
+}
+
+.p{
+    font-size: 42px;
+}
+.d1,.d2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.d11,.d22{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
